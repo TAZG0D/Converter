@@ -1,4 +1,4 @@
-#Converter for dollar
+# Converter for dollar
 
 A Pen created on CodePen.
 
