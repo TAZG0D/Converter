@@ -1,0 +1,28 @@
+<body>
+  <img src="https://i.postimg.cc/zBDsPz1W/Cs2-Donk-GIF-by-BLAST.gif" alt="Logo" class="logo">
+
+  <div class="container">
+    <div class="content">
+      <h2>Você é o Rei do Profit?</h2>
+      <p> YUAN FOR DOLL4R</p>
+      <button onclick="conversor()">Bora converter!</button>
+    </div>
+  </div>
+  <footer>𝕍𝕀 𝕍𝔼ℝ𝕀 𝕌ℕ𝕀𝕍𝔼ℝ𝕊𝕌𝕄 𝕍𝕀𝕍𝕌𝕊 𝕍𝕀ℂ𝕀</footer>
+
+  <script>
+    function conversor() {
+      // Solicita ao usuário um valor em YUAN
+      let valorYUAN = prompt("Digite um valor em YUAN");
+      
+      // Define a taxa de conversão de YUAN para USD
+      let umYUAN = 0.14;
+      
+      // Converte o valor para USD
+      let valorUSD = valorYUAN * umYUAN;
+      
+      // Exibe o resultado em um alerta
+      alert("O valor em USD é: " + valorUSD.toFixed(2));
+    }
+  </script>
+</body>
